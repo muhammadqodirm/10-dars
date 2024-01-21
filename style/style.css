@@ -1,0 +1,374 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Commissioner";
+  background: #fafafa;
+}
+
+.container {
+  width: 100%;
+  height: 2158px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header__container .first {
+  height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 150px;
+  padding-right: 150px;
+  background-image: url(../img/Bitmap.png);
+  padding-bottom: 200px;
+}
+
+.header__container .first h1 {
+  width: 127.571px;
+  height: 20px;
+  flex-shrink: 0;
+  color: #fff;
+}
+
+.header__container .first .btn {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.header__container .first .btn a {
+  color: #fff;
+  font-family: Commissioner;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-decoration: none;
+}
+
+.header__container .first .btn a:hover {
+  text-decoration-line: underline;
+}
+
+.header__container .one {
+  width: 730px;
+  height: 269px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  background: #fff;
+  margin-left: 400px;
+  margin-top: -100px;
+  margin-bottom: 24px;
+}
+
+.header__container .one .image {
+  margin-left: 45%;
+  margin-top: -30px;
+  margin-bottom: 28px;
+}
+
+.header__container .one h1 {
+  color: #000;
+  text-align: center;
+  font-family: Commissioner;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 15px;
+}
+
+.header__container .one p {
+  color: #7a7a7a;
+  text-align: center;
+  font-family: Commissioner;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 40px;
+}
+
+.header__container .button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 48px;
+  padding-right: 48px;
+}
+
+.header__container .button button {
+  width: 204px;
+  height: 56px;
+  flex-shrink: 0;
+  border-radius: 33.5px;
+  background: #3cb3ab;
+  color: #fff;
+  font-family: Commissioner;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  transition: all 0.5s;
+  border: none;
+}
+
+.header__container .button button:hover {
+  background: #147a73;
+}
+
+.header__container .button .button-one button {
+  width: 174px;
+  height: 56px;
+  flex-shrink: 0;
+  border-radius: 33.5px;
+  background: #7c7878;
+
+  color: #969595;
+  font-family: Commissioner;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-right: 40px;
+  text-align: center;
+}
+
+.header__container .two {
+  width: 730px;
+  height: 212px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  background: #fff;
+  margin-left: 400px;
+}
+
+.header__container .two .five {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 48px;
+  padding-left: 48px;
+  padding-right: 169px;
+  padding-bottom: 37px;
+}
+
+.header__container .two img {
+  padding-left: 48px;
+}
+
+.header__container .two .five .four {
+  color: #000;
+  font-family: Commissioner;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.header__container .two .five .four span {
+  color: #7a7a7a;
+  font-family: Commissioner;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.header__container .three {
+  width: 730px;
+  height: 1197px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  background: #fff;
+  margin-left: 400px;
+  margin-top: 24px;
+  padding-top: 48px;
+  padding-left: 48px;
+}
+
+.header__container .three h1 {
+  color: #000;
+  font-family: Commissioner;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.header__container .three p {
+  width: 634px;
+  color: #7a7a7a;
+  font-family: Commissioner;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 187.5% */
+}
+
+.header__container .btn-one {
+  width: 634px;
+  height: 285px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  background: #fff;
+  padding-top: 38px;
+  padding-left: 32px;
+  margin-top: 40px;
+}
+
+.header__container .btn-one .buttonone {
+  display: flex;
+  align-items: center;
+  gap: 50%;
+  padding-bottom: 24px;
+}
+
+.header__container .btn-one .buttonone p {
+  color: #3cb3ab;
+  text-align: right;
+  font-family: Commissioner;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding-right: 32px;
+}
+
+.header__container .btn-one .buttonfive {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 32px;
+  padding-top: 24px;
+}
+
+.header__container .btn-one .buttonfive .buttonthree {
+  color: #000;
+  font-family: Commissioner;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.header__container .btn-one .buttonfive .buttonthree span {
+  color: #7a7a7a;
+  font-family: Commissioner;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.header__container .btn-one .buttonfive .buttonfour button {
+  width: 157px;
+  height: 48px;
+  flex-shrink: 0;
+  border-radius: 33.5px;
+  background: #3cb3ab;
+  color: #fff;
+  font-family: Commissioner;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border: none;
+}
+
+.header__container .btn-one .buttonfive .buttonfour button:hover {
+  border-radius: 33.5px;
+  background: #147a73;
+}
+
+.header__container .btn-two {
+  width: 634px;
+  height: 285px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  background: #fff;
+  padding-top: 38px;
+  padding-left: 32px;
+  margin-top: 40px;
+  opacity: 0.5;
+}
+
+.header__container .btn-two .buttonone {
+  display: flex;
+  align-items: center;
+  gap: 50%;
+  padding-bottom: 24px;
+}
+
+.header__container .btn-two .buttonone p {
+  color: #3cb3ab;
+  text-align: right;
+  font-family: Commissioner;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding-right: 32px;
+}
+
+.header__container .btn-two .buttonfive {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 32px;
+  padding-top: 24px;
+}
+
+.header__container .btn-two .buttonfive .buttonthree {
+  color: #000;
+  font-family: Commissioner;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.header__container .btn-two .buttonfive .buttonthree span {
+  color: #7a7a7a;
+  font-family: Commissioner;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.header__container .btn-two .buttonfive .buttonfour button {
+  width: 157px;
+  height: 48px;
+  flex-shrink: 0;
+  border-radius: 33.5px;
+  opacity: 0.5;
+  background: #2f2f2f;
+  color: #fff;
+  font-family: Commissioner;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border: none;
+}
+
+.header__container .btn-two .buttonfive .buttonfour button:hover {
+  border-radius: 33.5px;
+  opacity: 0.5;
+  background: #2f2f2f;
+}
