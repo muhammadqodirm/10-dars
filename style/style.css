@@ -128,8 +128,12 @@ body {
   flex-shrink: 0;
   border-radius: 33.5px;
   background: #7c7878;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
 
-  color: #969595;
+  color: #fcfcfc;
   font-family: Commissioner;
   font-size: 16px;
   font-style: normal;
@@ -224,7 +228,7 @@ body {
   margin-top: 40px;
 }
 
-.header__container .btn-one .buttonone {
+.header__container .btn-one .button-one {
   display: flex;
   align-items: center;
   gap: 50%;
